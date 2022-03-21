@@ -12,7 +12,7 @@ a:visited {
   text-decoration: none;
 }
 
-nav {
+.navigation {
   height: 10vh;
   background-color: #28527a;
   padding: 0 40px;
@@ -35,26 +35,88 @@ nav {
   padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
+  border: none;
+}
+.button--form {
+  width: 100px;
+  background-color: #55a5f0;
+}
+.button--secondary {
+  background-color: unset;
+  border: 2px solid #28527a;
+  color: #28527a;
 }
 
-div {
+.intro {
   text-align: center;
 }
-div h1 {
+.intro .intro__heading {
   color: #28527a;
   font: 50px;
 }
-div h2 {
+.intro .intro__sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   margin: 20px 0;
 }
-div a {
+.intro .intro__button {
   margin: 0 auto;
 }
 
-header {
-  height: 90vh;
+.wave {
+  vertical-align: top;
+}
+
+.form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form .form__input {
+  margin-bottom: 20px;
+}
+
+.outro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outro__heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #28527a;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.footer__text {
+  color: #fafafa;
+  vertical-align: bottom;
+}
+
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  height: 50vh;
+  background-color: #28527a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outro-container {
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -1,5 +1,20 @@
-header {
-    height: 90vh;
+.header {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    height: 50vh;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outro-container {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
