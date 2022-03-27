@@ -1,3 +1,5 @@
+"use strict";
+
 /* // OBJECT SYNTAX
 
 const exampleObject = {
@@ -25,21 +27,18 @@ console.log(exampleObject["types"])
 // ADDING A KEY TO AN OBJECT
 exampleObject.newkey = "new value";
 console.log(exampleObject); */
-
-const person = {
-    firstName: "Charlie",
-    lastName: "Richardson",
-    quote: "It doesn't get easier, you just go faster",
-    skills: [html, css, javascript], 
-    getFullName() {
-        return '${this.firstName} ${this.lastName}'
-    }
-}
-
-
-// WRITE A METHOD ON THE PERSON OBJECT THAT USES THE SKILLS ARRAY
+var person = {
+  firstName: "Charlie",
+  lastName: "Richardson",
+  quote: "It doesn't get easier, you just go faster",
+  skills: [hteml, css, javascript],
+  getFullName: function getFullName() {
+    return '${this.firstName} ${this.lastName}';
+  }
+}; // WRITE A METHOD ON THE PERSON OBJECT THAT USES THE SKILLS ARRAY
 // ITERATE OVER THE SKILLS ARRAY AND GENERATE A LIST ITEM FOR EACH SKILL 
 // E.G <li>html</li>
+
 person.age = 30;
 /* console.log(person);
 // FIRST NAME & LAST NAME ONTO THE CONSOLE
