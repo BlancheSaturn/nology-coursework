@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header{
+    text-align: start;
+    height: 80px;
+    padding: 40px;
+    font-size: 60px;
+    justify-content: left;
+    color: rgb(95, 95, 148);
+}
+
+.login-button {
+    height: auto;
+    position: relative;
+    width: 250px;
+    padding: 15px 32px;
+    text-align: right;
+    display: block;
+ 
+}
+
+body {
+    background-color: white;
+    max-width: 1400px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(63, 160, 192);
+    margin: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.device {
+    text-align: center;
+    padding: 0;
+    height: 700px;
+    width: auto;
+
+}
+
+.resources {
+    font-size: 30px;
+    color: rgb(63, 160, 192);
+    margin: 30px;
+    text-align: center;
+    font-style: italic;
+
+}
+
