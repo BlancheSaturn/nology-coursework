@@ -45,7 +45,7 @@ main {
 
 .flex-container {
     border: 2px solid black;
-    width: 600px;
+    width: 500px;
     height: 50%;
     display: flex;
     flex-direction: row;
@@ -90,4 +90,12 @@ main {
     width: 30%;
     padding: 1520pxpx;
     border: solid black 2px;
+  }
+
+  .right-panel > h3 {
+    margin-bottom: 12px;
+  }
+  
+  p {
+    text-align:start;
   }

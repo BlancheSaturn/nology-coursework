@@ -41,10 +41,11 @@ main {
     margin: 25px auto;
     display: flex;
     justify-content:space-between;
+    flex-wrap: wrap;
   }  
 
 .flex-container {
-    width: 600px;
+    width: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
