@@ -44,42 +44,50 @@ main {
   }  
 
 .flex-container {
+    border: 2px solid black;
     width: 600px;
+    height: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   
 }
 
-
 .item {
-    padding: 20px;
-    border: 2px solid black;
-    height: 150px;
-    margin: 20px;
-}
-
-ul {
-    margin-left: 40px;
-}
-
-li {
-    margin: 15px;
-}
-
-.right-panel {
-    width: 30%;
-    padding: 15px;
+    display: flex;
+    flex-direction: row;
     border: solid black 2px;
-    display: block;
-    justify-content: center;
+    height: 150px;
+    width: 700px;
+    padding: 15px;
+    margin: 20px;
   }
   
-  .right-panel > h3 {
-    margin-bottom: 12px;
+  .case {
+    height: 100px;
+    width: 100px;
+    border: solid 1px black;
+    margin: 10px;
+    background-color: black;
+    font-weight: bold;
+    color: white;
   }
   
-  p {
-    text-align:start;
+  #item-1 {
+    justify-content: space-around;
   }
-
+  
+  #item-2 {
+    justify-content: flex-end;
+  }
+  
+  #item-3 {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  #right-panel {
+    width: 30%;
+    padding: 1520pxpx;
+    border: solid black 2px;
+  }
