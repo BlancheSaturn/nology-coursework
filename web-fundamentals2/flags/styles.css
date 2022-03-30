@@ -1,0 +1,75 @@
+
+ .flag{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    
+  }
+
+  .right{
+    background-color:blue;
+    width: 80px;
+    height:200px;
+  }
+
+  .flag:hover {
+background-color: green;
+  }
+  
+  .middle{
+    background-color:white;
+    width:80px;
+    height:200px;
+  }
+
+  .flag:hover {
+    background-color: white;
+      }
+  
+  .left{
+    background-color: red;
+    width:80px;
+    height:200px;
+  }
+  
+  .flag:hover {
+    background-color: orange;
+      }
+
+ 
+  .flag2{
+    display: block;
+    padding: 20px;
+  }
+
+  .top{
+    background-color:black;
+    width: 250px;
+    height:60px;
+  }
+
+  .flag2:hover {
+    background-color: maroon;
+      }
+  
+  .centre{
+    background-color:#ff0000;
+    width:250px;
+    height:60px;
+  }
+
+  .flag2:hover {
+    background-color: white;
+      }
+  
+  .bottom{
+    background-color: #fc0;
+    width:250px;
+    height:60px;
+  }
+
+  .flag2:hover {
+    background-color: darkgreen;
+      }
+  
+
